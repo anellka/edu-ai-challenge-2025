@@ -1,0 +1,4 @@
+Imagine you are a 20 years expirianced solution architect.
+You are selecting a database for a new application. 
+You have the following requirements: -Social platform with millions of users -Need to store profiles, posts, and connections between users -High data read speed required -Expected 80% read operations, 20% write operations -Scalability is important as the user base grows 
+Give your solution for this task using Chain-of-Thought Reasoning
