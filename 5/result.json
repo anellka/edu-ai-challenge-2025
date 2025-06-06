@@ -1,0 +1,52 @@
+[
+  {
+    "sentiment": "Negative",
+    "isRelevant": true,
+    "mainSubject": "Sensor reliability and hardware quality",
+    "positives": [],
+    "painPoints": [
+      "Sensor intermittently stops tracking",
+      "Problem persists even when plugged in",
+      "Dongle did not work on first unit",
+      "High price for unreliable performance"
+    ],
+    "improvementSuggestions": [
+      "Improve sensor reliability",
+      "Ensure dongle quality control"
+    ],
+    "featuresMentioned": [
+      "Sensor",
+      "Dongle",
+      "Polling rate (8000Hz)",
+      "Price"
+    ],
+    "userExpertise": "Experienced"
+  },
+  {
+    "sentiment": "Mixed",
+    "isRelevant": true,
+    "mainSubject": "Value for money and product quality",
+    "positives": [
+      "No flaws in product quality"
+    ],
+    "painPoints": [
+      "High price not justified by performance"
+    ],
+    "improvementSuggestions": [
+      "Reduce price to better match value"
+    ],
+    "featuresMentioned": [
+      "Product quality",
+      "Price",
+      "Performance",
+      "Specs"
+    ],
+    "userExpertise": "Experienced"
+  }
+]
+/*
+  Chain of Thought:
+•	Both samples mention features and issues specific to a high-end mouse, and the context (dongle, 8000Hz, price) matches the Razer Viper V3 PRO, so both are relevant.
+•	Sample 1 details technical and hardware issues, with a negative sentiment and actionable improvement suggestions.
+•	Sample 2 praises the product's quality but criticizes its price-to-value ratio, resulting in a mixed sentiment. The user demonstrates familiarity with mouse performance and specs, indicating experience.
+*/
