@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Time Tracker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⏱️ Task Timer</h1>
+        </header>
+
+        <div class="current-task" id="currentTaskSection" style="display: none;">
+            <div class="task-info">
+                <div class="task-name" id="currentTaskName"></div>
+                <div class="timer-display" id="timerDisplay">00:00:00</div>
+            </div>
+            <div class="timer-controls">
+                <button id="pauseBtn" class="btn btn-warning">⏸️ Pause</button>
+                <button id="stopBtn" class="btn btn-danger">⏹️ Stop</button>
+            </div>
+        </div>
+
+        <div class="add-task-section">
+            <div class="input-group">
+                <input type="text" id="taskInput" placeholder="Enter task name..." maxlength="50">
+                <button id="addTaskBtn" class="btn btn-primary">➕ Add Task</button>
+            </div>
+        </div>
+
+        <div class="tasks-section">
+            <h3>Tasks</h3>
+            <div id="tasksList" class="tasks-list">
+                <!-- Tasks will be dynamically populated here -->
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stats-toggle">
+                <button id="toggleStats" class="btn btn-secondary">📊 View Statistics</button>
+            </div>
+            <div id="statsContent" class="stats-content" style="display: none;">
+                <div class="stats-summary">
+                    <div class="stat-item">
+                        <span class="stat-label">Today:</span>
+                        <span class="stat-value" id="todayTotal">0h 0m</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">This Week:</span>
+                        <span class="stat-value" id="weekTotal">0h 0m</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Total Tasks:</span>
+                        <span class="stat-value" id="totalTasks">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html> 
