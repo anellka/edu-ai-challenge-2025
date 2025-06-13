@@ -1,0 +1,44 @@
+{
+  "name": "type-safe-validation-system",
+  "version": "1.0.0",
+  "description": "A comprehensive, production-ready validation library built with TypeScript that provides type-safe validation for complex data structures with excellent performance and user-friendly error messages.",
+  "main": "schema-simple.js",
+  "types": "schema-simple.ts",
+  "scripts": {
+    "start": "npm run build && npm run demo",
+    "build": "npx tsc schema-simple.ts --target es2017 --module commonjs --skipLibCheck --noImplicitAny false",
+    "demo": "node schema-simple.js",
+    "test": "npm run build && echo 'Running comprehensive validation tests...' && node test-runner.js",
+    "test:all": "npm run test",
+    "dev": "npm run build && npm run demo && npm run test",
+    "validate": "npm run build && npm run test && npm run demo",
+    "clean": "del schema-simple.js 2>nul || rm -f schema-simple.js",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "validation",
+    "typescript",
+    "schema",
+    "type-safe",
+    "data-validation",
+    "form-validation",
+    "object-validation"
+  ],
+  "author": "Validation System",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/type-safe-validation-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/type-safe-validation-system/issues"
+  },
+  "homepage": "https://github.com/your-username/type-safe-validation-system#readme"
+}
