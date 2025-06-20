@@ -1,0 +1,26 @@
+{
+  "word_count": 965,
+  "speaking_speed_wpm": 129,
+  "frequently_mentioned_topics": [
+    {
+      "topic": "Chest pain",
+      "mentions": 15
+    },
+    {
+      "topic": "Heart attack",
+      "mentions": 7
+    },
+    {
+      "topic": "Tylenol",
+      "mentions": 3
+    },
+    {
+      "topic": "Flu symptoms",
+      "mentions": 3
+    },
+    {
+      "topic": "ECG (electrocardiogram)",
+      "mentions": 2
+    }
+  ]
+}

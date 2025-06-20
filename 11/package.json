@@ -1,0 +1,27 @@
+{
+  "name": "audio-transcription-analyzer",
+  "version": "1.0.0",
+  "description": "Console application for transcribing and analyzing audio files using OpenAI APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "audio",
+    "transcription",
+    "openai",
+    "whisper",
+    "gpt",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.24.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "dotenv": "^16.3.1"
+  }
+} 
